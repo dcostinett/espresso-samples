@@ -44,7 +44,7 @@ public class MainActivityTest {
 
 
     @After
-    public void unregisterIntentServiceIdlingResource() {
+    public void unregisterIdlingResource() {
         Espresso.unregisterIdlingResources(idlingResource);
     }
 
