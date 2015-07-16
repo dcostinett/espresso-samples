@@ -40,12 +40,6 @@ public class MainActivityTest {
 
         idlingResource = new HandlerIdlingResource(waitingTime);
         Espresso.registerIdlingResources(idlingResource);
-
-//        Instrumentation instrumentation
-//                = InstrumentationRegistry.getInstrumentation();
-//        idlingResource = new HandlerIdlingResource(
-//                instrumentation.getTargetContext());
-//        Espresso.registerIdlingResources(idlingResource);
     }
 
 
